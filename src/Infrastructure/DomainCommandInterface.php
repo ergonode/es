@@ -9,14 +9,8 @@ declare(strict_types = 1);
 
 namespace Ergonode\EventSourcing\Infrastructure;
 
-use Ergonode\Core\Domain\Entity\AbstractId;
-
 /**
  */
-interface MessagesEventInterface
+interface DomainCommandInterface
 {
-    /**
-     * @return AbstractId
-     */
-    public function getId(): AbstractId;
 }
